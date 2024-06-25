@@ -7,7 +7,7 @@
     "type": "module",
     "scripts": {
         "typecheck": "pnpm -r typecheck",
-        "dev:server": "pnpm --filter server run start:dev",
+        "dev:server": "pnpm --filter backend run start:dev",
         "dev:client": "pnpm --filter client run dev"
     }
 }
